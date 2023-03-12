@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_BBGpAMCgEe2Uj9ginAxuEQ">
+  <modelElement href="JavaDesignPatterns.uml#_BKZH4MCgEe2Uj9ginAxuEQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_BOVzwMCgEe2Uj9ginAxuEQ" sourceAnchor="281.0,0.0" targetAnchor="96.0,109.0" target="_BOQUMMCgEe2Uj9ginAxuEQ" source="_BOY3EMCgEe2Uj9ginAxuEQ">
+    <modelElement href="JavaDesignPatterns.uml#_BLn28cCgEe2Uj9ginAxuEQ"/>
+    <stereotypes xmi:id="_BOWa08CgEe2Uj9ginAxuEQ" name="Reference">
+      <modelElement href="JavaDesignPatterns.uml#_BLoeAMCgEe2Uj9ginAxuEQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_BOWa0MCgEe2Uj9ginAxuEQ" text="">
+      <visualProperties xmi:id="_BTINIMCgEe2Uj9ginAxuEQ" position="-14.114347235521478,66.94204387671738"/>
+    </nameVisual>
+    <sourceRole xmi:id="_BOWa0cCgEe2Uj9ginAxuEQ" aggregationKind="NONE" name="">
+      <modelElement href="JavaDesignPatterns.uml#_BLn28sCgEe2Uj9ginAxuEQ"/>
+      <visualProperties xmi:id="_BTHmE8CgEe2Uj9ginAxuEQ" position="1.1850303926066204,-65.12710695179186"/>
+      <visibility xmi:id="_BOYQAcCgEe2Uj9ginAxuEQ" label="+"/>
+      <cardinality xmi:id="_BOYQAMCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_BOWa0sCgEe2Uj9ginAxuEQ" aggregationKind="NONE" name="stockGrabber" navigable="true">
+      <modelElement href="JavaDesignPatterns.uml#_BLf7IsCgEe2Uj9ginAxuEQ"/>
+      <visualProperties xmi:id="_BTI0MMCgEe2Uj9ginAxuEQ" position="-32.98816621736876,166.5242412777314"/>
+      <visibility xmi:id="_BOYQA8CgEe2Uj9ginAxuEQ" label="-"/>
+      <cardinality xmi:id="_BOYQAsCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_BOVzwcCgEe2Uj9ginAxuEQ" sourceAnchor="0.0,97.0" targetAnchor="214.0,71.0" dashed="true" superClass="_BOT-kMCgEe2Uj9ginAxuEQ" subClass="_BOY3EMCgEe2Uj9ginAxuEQ">
+    <modelElement href="JavaDesignPatterns.uml#_BLU8AMCgEe2Uj9ginAxuEQ"/>
+    <bendpoints xmi:id="_BTHmEMCgEe2Uj9ginAxuEQ" sourceX="-675" targetY="152"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_BOgL0MCgEe2Uj9ginAxuEQ" sourceAnchor="321.0,0.0" targetAnchor="192.0,54.0" target="_BOQUMMCgEe2Uj9ginAxuEQ" source="_BOjPIMCgEe2Uj9ginAxuEQ">
+    <modelElement href="JavaDesignPatterns.uml#_BLmBwMCgEe2Uj9ginAxuEQ"/>
+    <bendpoints xmi:id="_BTHmEcCgEe2Uj9ginAxuEQ" sourceY="-224" targetX="477"/>
+    <stereotypes xmi:id="_BOhZ8sCgEe2Uj9ginAxuEQ" name="Reference">
+      <modelElement href="JavaDesignPatterns.uml#_BLmo0MCgEe2Uj9ginAxuEQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_BOgy4MCgEe2Uj9ginAxuEQ" text="">
+      <visualProperties xmi:id="_BTJbQMCgEe2Uj9ginAxuEQ" position="-16.01867281492457,188.70660300721693"/>
+    </nameVisual>
+    <sourceRole xmi:id="_BOhZ8MCgEe2Uj9ginAxuEQ" aggregationKind="NONE" name="">
+      <modelElement href="JavaDesignPatterns.uml#_BLmBwcCgEe2Uj9ginAxuEQ"/>
+      <visualProperties xmi:id="_BTI0McCgEe2Uj9ginAxuEQ" position="-0.36357778018930276,-63.83059377268478"/>
+      <visibility xmi:id="_BOioEcCgEe2Uj9ginAxuEQ" label="+"/>
+      <cardinality xmi:id="_BOioEMCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_BOhZ8cCgEe2Uj9ginAxuEQ" aggregationKind="NONE" name="stockGrabber" navigable="true">
+      <modelElement href="JavaDesignPatterns.uml#_BLbCo8CgEe2Uj9ginAxuEQ"/>
+      <visualProperties xmi:id="_BTKCUMCgEe2Uj9ginAxuEQ" position="441.5566205906438,184.90791126905094"/>
+      <visibility xmi:id="_BOioE8CgEe2Uj9ginAxuEQ" label="-"/>
+      <cardinality xmi:id="_BOioEsCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_BOm5gMCgEe2Uj9ginAxuEQ" sourceAnchor="144.0,0.0" targetAnchor="0.0,54.0" dashed="true" superClass="_BOQUMMCgEe2Uj9ginAxuEQ" subClass="_BOp82cCgEe2Uj9ginAxuEQ">
+    <modelElement href="JavaDesignPatterns.uml#_BLSfwcCgEe2Uj9ginAxuEQ"/>
+    <bendpoints xmi:id="_BTHmEsCgEe2Uj9ginAxuEQ" sourceY="-110" targetX="-420"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_BOp80MCgEe2Uj9ginAxuEQ" source="_BOp82cCgEe2Uj9ginAxuEQ">
+    <modelElement href="JavaDesignPatterns.uml#_BLmo0cCgEe2Uj9ginAxuEQ"/>
+    <stereotypes xmi:id="_BOp80cCgEe2Uj9ginAxuEQ" name="Reference">
+      <modelElement href="JavaDesignPatterns.uml#_BLn28MCgEe2Uj9ginAxuEQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_BOp80sCgEe2Uj9ginAxuEQ" text=""/>
+    <sourceRole xmi:id="_BOp808CgEe2Uj9ginAxuEQ" aggregationKind="NONE" name="">
+      <modelElement href="JavaDesignPatterns.uml#_BLmo0sCgEe2Uj9ginAxuEQ"/>
+      <visibility xmi:id="_BOp81MCgEe2Uj9ginAxuEQ" label="+"/>
+      <cardinality xmi:id="_BOp81cCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_BOp81sCgEe2Uj9ginAxuEQ" aggregationKind="NONE" name="observers" navigable="true">
+      <modelElement href="JavaDesignPatterns.uml#_BLbpscCgEe2Uj9ginAxuEQ"/>
+      <visibility xmi:id="_BOp818CgEe2Uj9ginAxuEQ" label="-"/>
+      <cardinality xmi:id="_BOp82MCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_BOQUMMCgEe2Uj9ginAxuEQ" name="Subject" associationsIn="_BOVzwMCgEe2Uj9ginAxuEQ _BOgL0MCgEe2Uj9ginAxuEQ" subclassedBy="_BOm5gMCgEe2Uj9ginAxuEQ">
+    <modelElement href="JavaDesignPatterns.uml#_BK8hgMCgEe2Uj9ginAxuEQ"/>
+    <visualProperties xmi:id="_BOQUMcCgEe2Uj9ginAxuEQ" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_BOQUMsCgEe2Uj9ginAxuEQ" label="+"/>
+    <operations xmi:id="_BOQUM8CgEe2Uj9ginAxuEQ" name="notifyObserver">
+      <modelElement href="JavaDesignPatterns.uml#_BK9IkMCgEe2Uj9ginAxuEQ"/>
+      <visibility xmi:id="_BOQUNMCgEe2Uj9ginAxuEQ" label="+"/>
+      <cardinality xmi:id="_BOQUNcCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_BOQUNsCgEe2Uj9ginAxuEQ" name="register">
+      <modelElement href="JavaDesignPatterns.uml#_BLWKIMCgEe2Uj9ginAxuEQ"/>
+      <visibility xmi:id="_BOQUN8CgEe2Uj9ginAxuEQ" label="+"/>
+      <cardinality xmi:id="_BOQUOMCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_BOQUOcCgEe2Uj9ginAxuEQ" name="o">
+        <modelElement href="JavaDesignPatterns.uml#_BLWKIcCgEe2Uj9ginAxuEQ"/>
+        <cardinality xmi:id="_BOQUOsCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_BOQUO8CgEe2Uj9ginAxuEQ" name="Observer">
+          <modelElement href="JavaDesignPatterns.uml#_BKyJcsCgEe2Uj9ginAxuEQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_BOQUPMCgEe2Uj9ginAxuEQ" name="unregister">
+      <modelElement href="JavaDesignPatterns.uml#_BLWxMMCgEe2Uj9ginAxuEQ"/>
+      <visibility xmi:id="_BOQUPcCgEe2Uj9ginAxuEQ" label="+"/>
+      <cardinality xmi:id="_BOQUPsCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_BOQUP8CgEe2Uj9ginAxuEQ" name="o">
+        <modelElement href="JavaDesignPatterns.uml#_BLWxMcCgEe2Uj9ginAxuEQ"/>
+        <cardinality xmi:id="_BOQUQMCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_BOQUQcCgEe2Uj9ginAxuEQ" name="Observer">
+          <modelElement href="JavaDesignPatterns.uml#_BKyJcsCgEe2Uj9ginAxuEQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_BOT-kMCgEe2Uj9ginAxuEQ" name="Observer" subclassedBy="_BOVzwcCgEe2Uj9ginAxuEQ">
+    <modelElement href="JavaDesignPatterns.uml#_BKyJcsCgEe2Uj9ginAxuEQ"/>
+    <visualProperties xmi:id="_BOT-kcCgEe2Uj9ginAxuEQ" position="-1044.0,284.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_BOT-ksCgEe2Uj9ginAxuEQ" label="+"/>
+    <operations xmi:id="_BOT-k8CgEe2Uj9ginAxuEQ" name="update">
+      <modelElement href="JavaDesignPatterns.uml#_BKywgMCgEe2Uj9ginAxuEQ"/>
+      <visibility xmi:id="_BOT-lMCgEe2Uj9ginAxuEQ" label="+"/>
+      <cardinality xmi:id="_BOT-lcCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_BOT-lsCgEe2Uj9ginAxuEQ" name="ibmPrice">
+        <modelElement href="JavaDesignPatterns.uml#_BKywgcCgEe2Uj9ginAxuEQ"/>
+        <cardinality xmi:id="_BOT-l8CgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_BOT-mMCgEe2Uj9ginAxuEQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_BOT-mcCgEe2Uj9ginAxuEQ" name="applPrice">
+        <modelElement href="JavaDesignPatterns.uml#_BKywgsCgEe2Uj9ginAxuEQ"/>
+        <cardinality xmi:id="_BOT-msCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_BOT-m8CgEe2Uj9ginAxuEQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_BOT-nMCgEe2Uj9ginAxuEQ" name="googlePrice">
+        <modelElement href="JavaDesignPatterns.uml#_BKzXkMCgEe2Uj9ginAxuEQ"/>
+        <cardinality xmi:id="_BOT-ncCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_BOT-nsCgEe2Uj9ginAxuEQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_BOY3EMCgEe2Uj9ginAxuEQ" name="StockObserver" associationsOut="_BOVzwMCgEe2Uj9ginAxuEQ" generalizations="_BOVzwcCgEe2Uj9ginAxuEQ">
+    <modelElement href="JavaDesignPatterns.uml#_BK43IMCgEe2Uj9ginAxuEQ"/>
+    <visualProperties xmi:id="_BOY3EcCgEe2Uj9ginAxuEQ" position="-155.0,410.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_BOY3EsCgEe2Uj9ginAxuEQ" label="+"/>
+    <attributes xmi:id="_BOY3E8CgEe2Uj9ginAxuEQ" name="ibmPrice">
+      <modelElement href="JavaDesignPatterns.uml#_BLeF8cCgEe2Uj9ginAxuEQ"/>
+      <stereotypes xmi:id="_BOY3FMCgEe2Uj9ginAxuEQ" name="LegacyStyledElement">
+        <modelElement href="JavaDesignPatterns.uml#_BLeF8sCgEe2Uj9ginAxuEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_BOY3FcCgEe2Uj9ginAxuEQ" label="-"/>
+      <cardinality xmi:id="_BOY3FsCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_BOY3F8CgEe2Uj9ginAxuEQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BOY3GMCgEe2Uj9ginAxuEQ" name="aaplPrice">
+      <modelElement href="JavaDesignPatterns.uml#_BLetAMCgEe2Uj9ginAxuEQ"/>
+      <stereotypes xmi:id="_BOY3GcCgEe2Uj9ginAxuEQ" name="LegacyStyledElement">
+        <modelElement href="JavaDesignPatterns.uml#_BLetAcCgEe2Uj9ginAxuEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_BOY3GsCgEe2Uj9ginAxuEQ" label="-"/>
+      <cardinality xmi:id="_BOY3G8CgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_BOY3HMCgEe2Uj9ginAxuEQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BOY3HcCgEe2Uj9ginAxuEQ" name="googlePrice">
+      <modelElement href="JavaDesignPatterns.uml#_BLetAsCgEe2Uj9ginAxuEQ"/>
+      <stereotypes xmi:id="_BOY3HsCgEe2Uj9ginAxuEQ" name="LegacyStyledElement">
+        <modelElement href="JavaDesignPatterns.uml#_BLfUEMCgEe2Uj9ginAxuEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_BOY3H8CgEe2Uj9ginAxuEQ" label="-"/>
+      <cardinality xmi:id="_BOY3IMCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_BOY3IcCgEe2Uj9ginAxuEQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BOY3IsCgEe2Uj9ginAxuEQ" defaultValue="0" name="obserIDTracker" staticAttribute="true">
+      <modelElement href="JavaDesignPatterns.uml#_BLfUEcCgEe2Uj9ginAxuEQ"/>
+      <stereotypes xmi:id="_BOY3I8CgEe2Uj9ginAxuEQ" name="LegacyStyledElement">
+        <modelElement href="JavaDesignPatterns.uml#_BLfUE8CgEe2Uj9ginAxuEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_BOY3JMCgEe2Uj9ginAxuEQ" label="-"/>
+      <cardinality xmi:id="_BOY3JcCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_BOY3JsCgEe2Uj9ginAxuEQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BOY3J8CgEe2Uj9ginAxuEQ" name="observerId">
+      <modelElement href="JavaDesignPatterns.uml#_BLf7IMCgEe2Uj9ginAxuEQ"/>
+      <stereotypes xmi:id="_BOY3KMCgEe2Uj9ginAxuEQ" name="LegacyStyledElement">
+        <modelElement href="JavaDesignPatterns.uml#_BLf7IcCgEe2Uj9ginAxuEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_BOY3KcCgEe2Uj9ginAxuEQ" label="-"/>
+      <cardinality xmi:id="_BOY3KsCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_BOY3K8CgEe2Uj9ginAxuEQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BOY3LMCgEe2Uj9ginAxuEQ" name="stockGrabber">
+      <modelElement href="JavaDesignPatterns.uml#_BLf7IsCgEe2Uj9ginAxuEQ"/>
+      <stereotypes xmi:id="_BOY3LcCgEe2Uj9ginAxuEQ" name="LegacyStyledElement">
+        <modelElement href="JavaDesignPatterns.uml#_BLgiMMCgEe2Uj9ginAxuEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_BOY3LsCgEe2Uj9ginAxuEQ" label="-"/>
+      <cardinality xmi:id="_BOY3L8CgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_BOY3MMCgEe2Uj9ginAxuEQ" name="Subject">
+        <modelElement href="JavaDesignPatterns.uml#_BK8hgMCgEe2Uj9ginAxuEQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_BOY3McCgEe2Uj9ginAxuEQ" name="update">
+      <modelElement href="JavaDesignPatterns.uml#_BK6FQMCgEe2Uj9ginAxuEQ"/>
+      <stereotypes xmi:id="_BOY3MsCgEe2Uj9ginAxuEQ" name="LegacyStyledElement">
+        <modelElement href="JavaDesignPatterns.uml#_BK6sUMCgEe2Uj9ginAxuEQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_BOY3M8CgEe2Uj9ginAxuEQ" name="Annotations">
+        <modelElement href="JavaDesignPatterns.uml#_BK6sUcCgEe2Uj9ginAxuEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_BOY3NMCgEe2Uj9ginAxuEQ" label="+"/>
+      <cardinality xmi:id="_BOY3NcCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_BOY3NsCgEe2Uj9ginAxuEQ" name="ibmPrice">
+        <modelElement href="JavaDesignPatterns.uml#_BK6FQcCgEe2Uj9ginAxuEQ"/>
+        <cardinality xmi:id="_BOY3N8CgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_BOY3OMCgEe2Uj9ginAxuEQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_BOY3OcCgEe2Uj9ginAxuEQ" name="aaplPrice">
+        <modelElement href="JavaDesignPatterns.uml#_BK6FQsCgEe2Uj9ginAxuEQ"/>
+        <cardinality xmi:id="_BOY3OsCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_BOY3O8CgEe2Uj9ginAxuEQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_BOY3PMCgEe2Uj9ginAxuEQ" name="googlePrice">
+        <modelElement href="JavaDesignPatterns.uml#_BK6FQ8CgEe2Uj9ginAxuEQ"/>
+        <cardinality xmi:id="_BOY3PcCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_BOY3PsCgEe2Uj9ginAxuEQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_BOY3P8CgEe2Uj9ginAxuEQ" name="printThePrices">
+      <modelElement href="JavaDesignPatterns.uml#_BK6sU8CgEe2Uj9ginAxuEQ"/>
+      <visibility xmi:id="_BOY3QMCgEe2Uj9ginAxuEQ" label="-"/>
+      <cardinality xmi:id="_BOY3QcCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_BOZeIMCgEe2Uj9ginAxuEQ" name="StockObserver">
+      <modelElement href="JavaDesignPatterns.uml#_BLVjEMCgEe2Uj9ginAxuEQ"/>
+      <keywords xmi:id="_BOZeIcCgEe2Uj9ginAxuEQ" keyword="create"/>
+      <visibility xmi:id="_BOZeIsCgEe2Uj9ginAxuEQ" label="+"/>
+      <cardinality xmi:id="_BOZeI8CgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_BOZeJMCgEe2Uj9ginAxuEQ">
+        <modelElement href="JavaDesignPatterns.uml#_BLVjFMCgEe2Uj9ginAxuEQ"/>
+        <type xmi:id="_BOZeJcCgEe2Uj9ginAxuEQ" name="StockObserver">
+          <modelElement href="JavaDesignPatterns.uml#_BK43IMCgEe2Uj9ginAxuEQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_BOZeJsCgEe2Uj9ginAxuEQ" name="stockGrabber">
+        <modelElement href="JavaDesignPatterns.uml#_BLVjEcCgEe2Uj9ginAxuEQ"/>
+        <cardinality xmi:id="_BOZeJ8CgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_BOZeKMCgEe2Uj9ginAxuEQ" name="Subject">
+          <modelElement href="JavaDesignPatterns.uml#_BK8hgMCgEe2Uj9ginAxuEQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_BOjPIMCgEe2Uj9ginAxuEQ" name="GetTheStock" associationsOut="_BOgL0MCgEe2Uj9ginAxuEQ">
+    <modelElement href="JavaDesignPatterns.uml#_BKqNoMCgEe2Uj9ginAxuEQ"/>
+    <visualProperties xmi:id="_BOjPIcCgEe2Uj9ginAxuEQ" position="378.0,308.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_BOjPIsCgEe2Uj9ginAxuEQ" label="+"/>
+    <attributes xmi:id="_BOjPI8CgEe2Uj9ginAxuEQ" name="startTime">
+      <modelElement href="JavaDesignPatterns.uml#_BLZ0gMCgEe2Uj9ginAxuEQ"/>
+      <stereotypes xmi:id="_BOjPJMCgEe2Uj9ginAxuEQ" name="LegacyStyledElement">
+        <modelElement href="JavaDesignPatterns.uml#_BLabkMCgEe2Uj9ginAxuEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_BOjPJcCgEe2Uj9ginAxuEQ" label="-"/>
+      <cardinality xmi:id="_BOjPJsCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_BOjPJ8CgEe2Uj9ginAxuEQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BOjPKMCgEe2Uj9ginAxuEQ" name="stock">
+      <modelElement href="JavaDesignPatterns.uml#_BLabkcCgEe2Uj9ginAxuEQ"/>
+      <stereotypes xmi:id="_BOjPKcCgEe2Uj9ginAxuEQ" name="LegacyStyledElement">
+        <modelElement href="JavaDesignPatterns.uml#_BLbCoMCgEe2Uj9ginAxuEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_BOjPKsCgEe2Uj9ginAxuEQ" label="-"/>
+      <cardinality xmi:id="_BOjPK8CgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_BOjPLMCgEe2Uj9ginAxuEQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BOjPLcCgEe2Uj9ginAxuEQ" name="price">
+      <modelElement href="JavaDesignPatterns.uml#_BLbCocCgEe2Uj9ginAxuEQ"/>
+      <stereotypes xmi:id="_BOjPLsCgEe2Uj9ginAxuEQ" name="LegacyStyledElement">
+        <modelElement href="JavaDesignPatterns.uml#_BLbCosCgEe2Uj9ginAxuEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_BOjPL8CgEe2Uj9ginAxuEQ" label="-"/>
+      <cardinality xmi:id="_BOjPMMCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_BOjPMcCgEe2Uj9ginAxuEQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BOjPMsCgEe2Uj9ginAxuEQ" name="stockGrabber">
+      <modelElement href="JavaDesignPatterns.uml#_BLbCo8CgEe2Uj9ginAxuEQ"/>
+      <stereotypes xmi:id="_BOjPM8CgEe2Uj9ginAxuEQ" name="LegacyStyledElement">
+        <modelElement href="JavaDesignPatterns.uml#_BLbpsMCgEe2Uj9ginAxuEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_BOjPNMCgEe2Uj9ginAxuEQ" label="-"/>
+      <cardinality xmi:id="_BOjPNcCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_BOjPNsCgEe2Uj9ginAxuEQ" name="Subject">
+        <modelElement href="JavaDesignPatterns.uml#_BK8hgMCgEe2Uj9ginAxuEQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_BOjPN8CgEe2Uj9ginAxuEQ" name="run">
+      <modelElement href="JavaDesignPatterns.uml#_BKt4AMCgEe2Uj9ginAxuEQ"/>
+      <stereotypes xmi:id="_BOjPOMCgEe2Uj9ginAxuEQ" name="LegacyStyledElement">
+        <modelElement href="JavaDesignPatterns.uml#_BKufEMCgEe2Uj9ginAxuEQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_BOjPOcCgEe2Uj9ginAxuEQ" name="Annotations">
+        <modelElement href="JavaDesignPatterns.uml#_BKvGIMCgEe2Uj9ginAxuEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_BOjPOsCgEe2Uj9ginAxuEQ" label="+"/>
+      <cardinality xmi:id="_BOjPO8CgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_BOjPPMCgEe2Uj9ginAxuEQ" name="GetTheStock">
+      <modelElement href="JavaDesignPatterns.uml#_BLQDgMCgEe2Uj9ginAxuEQ"/>
+      <keywords xmi:id="_BOjPPcCgEe2Uj9ginAxuEQ" keyword="create"/>
+      <visibility xmi:id="_BOjPPsCgEe2Uj9ginAxuEQ" label="+"/>
+      <cardinality xmi:id="_BOjPP8CgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_BOjPQMCgEe2Uj9ginAxuEQ">
+        <modelElement href="JavaDesignPatterns.uml#_BLQqlsCgEe2Uj9ginAxuEQ"/>
+        <type xmi:id="_BOjPQcCgEe2Uj9ginAxuEQ" name="GetTheStock">
+          <modelElement href="JavaDesignPatterns.uml#_BKqNoMCgEe2Uj9ginAxuEQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_BOjPQsCgEe2Uj9ginAxuEQ" name="stockGrabber">
+        <modelElement href="JavaDesignPatterns.uml#_BLQqkMCgEe2Uj9ginAxuEQ"/>
+        <cardinality xmi:id="_BOjPQ8CgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_BOjPRMCgEe2Uj9ginAxuEQ" name="Subject">
+          <modelElement href="JavaDesignPatterns.uml#_BK8hgMCgEe2Uj9ginAxuEQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_BOjPRcCgEe2Uj9ginAxuEQ" name="newStartTime">
+        <modelElement href="JavaDesignPatterns.uml#_BLQqkcCgEe2Uj9ginAxuEQ"/>
+        <cardinality xmi:id="_BOjPRsCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_BOjPR8CgEe2Uj9ginAxuEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_BOjPSMCgEe2Uj9ginAxuEQ" name="newStock">
+        <modelElement href="JavaDesignPatterns.uml#_BLQqksCgEe2Uj9ginAxuEQ"/>
+        <cardinality xmi:id="_BOjPScCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_BOjPSsCgEe2Uj9ginAxuEQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_BOjPS8CgEe2Uj9ginAxuEQ" name="newPrice">
+        <modelElement href="JavaDesignPatterns.uml#_BLQqk8CgEe2Uj9ginAxuEQ"/>
+        <cardinality xmi:id="_BOjPTMCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_BOjPTcCgEe2Uj9ginAxuEQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_BOp82cCgEe2Uj9ginAxuEQ" name="StockGrabber" associationsOut="_BOp80MCgEe2Uj9ginAxuEQ" generalizations="_BOm5gMCgEe2Uj9ginAxuEQ">
+    <modelElement href="JavaDesignPatterns.uml#_BKzXkcCgEe2Uj9ginAxuEQ"/>
+    <visualProperties xmi:id="_BOp82sCgEe2Uj9ginAxuEQ" position="-534.0,194.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_BOp828CgEe2Uj9ginAxuEQ" label="+"/>
+    <attributes xmi:id="_BOp83MCgEe2Uj9ginAxuEQ" name="observers">
+      <modelElement href="JavaDesignPatterns.uml#_BLbpscCgEe2Uj9ginAxuEQ"/>
+      <stereotypes xmi:id="_BOp83cCgEe2Uj9ginAxuEQ" name="Generics">
+        <modelElement href="JavaDesignPatterns.uml#_BLcQwMCgEe2Uj9ginAxuEQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_BOp83sCgEe2Uj9ginAxuEQ" name="LegacyStyledElement">
+        <modelElement href="JavaDesignPatterns.uml#_BLc30MCgEe2Uj9ginAxuEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_BOp838CgEe2Uj9ginAxuEQ" label="-"/>
+      <cardinality xmi:id="_BOp84MCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_BOp84cCgEe2Uj9ginAxuEQ" name="ArrayList">
+        <modelElement href="JavaDesignPatterns.uml#_BLR4sMCgEe2Uj9ginAxuEQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BOp84sCgEe2Uj9ginAxuEQ" name="ibmPrice">
+      <modelElement href="JavaDesignPatterns.uml#_BLc30cCgEe2Uj9ginAxuEQ"/>
+      <stereotypes xmi:id="_BOp848CgEe2Uj9ginAxuEQ" name="LegacyStyledElement">
+        <modelElement href="JavaDesignPatterns.uml#_BLc30sCgEe2Uj9ginAxuEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_BOp85MCgEe2Uj9ginAxuEQ" label="+"/>
+      <cardinality xmi:id="_BOp85cCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_BOp85sCgEe2Uj9ginAxuEQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BOp858CgEe2Uj9ginAxuEQ" name="aaplPrice">
+      <modelElement href="JavaDesignPatterns.uml#_BLc308CgEe2Uj9ginAxuEQ"/>
+      <stereotypes xmi:id="_BOp86MCgEe2Uj9ginAxuEQ" name="LegacyStyledElement">
+        <modelElement href="JavaDesignPatterns.uml#_BLde4MCgEe2Uj9ginAxuEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_BOp86cCgEe2Uj9ginAxuEQ" label="+"/>
+      <cardinality xmi:id="_BOp86sCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_BOp868CgEe2Uj9ginAxuEQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BOp87MCgEe2Uj9ginAxuEQ" name="googlePrice">
+      <modelElement href="JavaDesignPatterns.uml#_BLde4cCgEe2Uj9ginAxuEQ"/>
+      <stereotypes xmi:id="_BOp87cCgEe2Uj9ginAxuEQ" name="LegacyStyledElement">
+        <modelElement href="JavaDesignPatterns.uml#_BLeF8MCgEe2Uj9ginAxuEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_BOp87sCgEe2Uj9ginAxuEQ" label="+"/>
+      <cardinality xmi:id="_BOp878CgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_BOp88MCgEe2Uj9ginAxuEQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_BOp88cCgEe2Uj9ginAxuEQ" name="StockGrabber">
+      <modelElement href="JavaDesignPatterns.uml#_BKz-oMCgEe2Uj9ginAxuEQ"/>
+      <keywords xmi:id="_BOp88sCgEe2Uj9ginAxuEQ" keyword="create"/>
+      <visibility xmi:id="_BOp888CgEe2Uj9ginAxuEQ" label="+"/>
+      <cardinality xmi:id="_BOp89MCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_BOp89cCgEe2Uj9ginAxuEQ">
+        <modelElement href="JavaDesignPatterns.uml#_BK0lssCgEe2Uj9ginAxuEQ"/>
+        <type xmi:id="_BOp89sCgEe2Uj9ginAxuEQ" name="StockGrabber">
+          <modelElement href="JavaDesignPatterns.uml#_BKzXkcCgEe2Uj9ginAxuEQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_BOp898CgEe2Uj9ginAxuEQ" name="notifyObserver">
+      <modelElement href="JavaDesignPatterns.uml#_BK1MwMCgEe2Uj9ginAxuEQ"/>
+      <stereotypes xmi:id="_BOp8-MCgEe2Uj9ginAxuEQ" name="LegacyStyledElement">
+        <modelElement href="JavaDesignPatterns.uml#_BK1MwcCgEe2Uj9ginAxuEQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_BOp8-cCgEe2Uj9ginAxuEQ" name="Annotations">
+        <modelElement href="JavaDesignPatterns.uml#_BK1z0MCgEe2Uj9ginAxuEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_BOp8-sCgEe2Uj9ginAxuEQ" label="+"/>
+      <cardinality xmi:id="_BOp8-8CgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_BOp8_MCgEe2Uj9ginAxuEQ" name="setIBMPrice">
+      <modelElement href="JavaDesignPatterns.uml#_BK1z0sCgEe2Uj9ginAxuEQ"/>
+      <visibility xmi:id="_BOp8_cCgEe2Uj9ginAxuEQ" label="+"/>
+      <cardinality xmi:id="_BOp8_sCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_BOp8_8CgEe2Uj9ginAxuEQ" name="newIBMPice">
+        <modelElement href="JavaDesignPatterns.uml#_BK1z08CgEe2Uj9ginAxuEQ"/>
+        <cardinality xmi:id="_BOp9AMCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_BOp9AcCgEe2Uj9ginAxuEQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_BOp9AsCgEe2Uj9ginAxuEQ" name="setApplrice">
+      <modelElement href="JavaDesignPatterns.uml#_BK2a4MCgEe2Uj9ginAxuEQ"/>
+      <visibility xmi:id="_BOp9A8CgEe2Uj9ginAxuEQ" label="+"/>
+      <cardinality xmi:id="_BOp9BMCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_BOp9BcCgEe2Uj9ginAxuEQ" name="newAaplPice">
+        <modelElement href="JavaDesignPatterns.uml#_BK2a4cCgEe2Uj9ginAxuEQ"/>
+        <cardinality xmi:id="_BOp9BsCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_BOp9B8CgEe2Uj9ginAxuEQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_BOp9CMCgEe2Uj9ginAxuEQ" name="setGooglePrice">
+      <modelElement href="JavaDesignPatterns.uml#_BK2a4sCgEe2Uj9ginAxuEQ"/>
+      <visibility xmi:id="_BOp9CcCgEe2Uj9ginAxuEQ" label="+"/>
+      <cardinality xmi:id="_BOp9CsCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_BOqj4MCgEe2Uj9ginAxuEQ" name="newGooglePice">
+        <modelElement href="JavaDesignPatterns.uml#_BK2a48CgEe2Uj9ginAxuEQ"/>
+        <cardinality xmi:id="_BOqj4cCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_BOqj4sCgEe2Uj9ginAxuEQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_BOqj48CgEe2Uj9ginAxuEQ" name="register">
+      <modelElement href="JavaDesignPatterns.uml#_BLTG0MCgEe2Uj9ginAxuEQ"/>
+      <stereotypes xmi:id="_BOqj5MCgEe2Uj9ginAxuEQ" name="LegacyStyledElement">
+        <modelElement href="JavaDesignPatterns.uml#_BLTG0sCgEe2Uj9ginAxuEQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_BOqj5cCgEe2Uj9ginAxuEQ" name="Annotations">
+        <modelElement href="JavaDesignPatterns.uml#_BLTt4MCgEe2Uj9ginAxuEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_BOqj5sCgEe2Uj9ginAxuEQ" label="+"/>
+      <cardinality xmi:id="_BOqj58CgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_BOqj6MCgEe2Uj9ginAxuEQ" name="newObserver">
+        <modelElement href="JavaDesignPatterns.uml#_BLTG0cCgEe2Uj9ginAxuEQ"/>
+        <cardinality xmi:id="_BOqj6cCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_BOqj6sCgEe2Uj9ginAxuEQ" name="Observer">
+          <modelElement href="JavaDesignPatterns.uml#_BKyJcsCgEe2Uj9ginAxuEQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_BOqj68CgEe2Uj9ginAxuEQ" name="unregister">
+      <modelElement href="JavaDesignPatterns.uml#_BLTt4sCgEe2Uj9ginAxuEQ"/>
+      <stereotypes xmi:id="_BOqj7MCgEe2Uj9ginAxuEQ" name="LegacyStyledElement">
+        <modelElement href="JavaDesignPatterns.uml#_BLTt5MCgEe2Uj9ginAxuEQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_BOqj7cCgEe2Uj9ginAxuEQ" name="Annotations">
+        <modelElement href="JavaDesignPatterns.uml#_BLUU8MCgEe2Uj9ginAxuEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_BOqj7sCgEe2Uj9ginAxuEQ" label="+"/>
+      <cardinality xmi:id="_BOqj78CgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_BOqj8MCgEe2Uj9ginAxuEQ" name="deleteObserver">
+        <modelElement href="JavaDesignPatterns.uml#_BLTt48CgEe2Uj9ginAxuEQ"/>
+        <cardinality xmi:id="_BOqj8cCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_BOqj8sCgEe2Uj9ginAxuEQ" name="Observer">
+          <modelElement href="JavaDesignPatterns.uml#_BKyJcsCgEe2Uj9ginAxuEQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_BOwDcMCgEe2Uj9ginAxuEQ" name="GrabStocks">
+    <modelElement href="JavaDesignPatterns.uml#_BKw7UMCgEe2Uj9ginAxuEQ"/>
+    <visualProperties xmi:id="_BOwDccCgEe2Uj9ginAxuEQ" position="1099.0,391.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_BOwDcsCgEe2Uj9ginAxuEQ" label="+"/>
+    <operations xmi:id="_BOwDc8CgEe2Uj9ginAxuEQ" name="main" staticOperation="true">
+      <modelElement href="JavaDesignPatterns.uml#_BKxiYMCgEe2Uj9ginAxuEQ"/>
+      <visibility xmi:id="_BOwDdMCgEe2Uj9ginAxuEQ" label="+"/>
+      <cardinality xmi:id="_BOwDdcCgEe2Uj9ginAxuEQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_BOwDdsCgEe2Uj9ginAxuEQ" name="args">
+        <modelElement href="JavaDesignPatterns.uml#_BKyJcMCgEe2Uj9ginAxuEQ"/>
+        <cardinality xmi:id="_BOwDd8CgEe2Uj9ginAxuEQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_BOwDeMCgEe2Uj9ginAxuEQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

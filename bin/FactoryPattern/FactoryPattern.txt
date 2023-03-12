@@ -1,0 +1,12 @@
+1.	When a method return one of several possible classes that share a common super
+	class.
+
+2. Class object is chosen at runtime
+
+3.	---- When to Use----
+---	When you don't know ahead of time what class of object you need
+--- When all of the potential classes are in the same subclass hierarchy
+--- To centralize class selection code
+--- When you don't want the user to have to know every subclass
+--- To encapsulate object creation
+

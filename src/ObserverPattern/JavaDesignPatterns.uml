@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_A_358MCgEe2Uj9ginAxuEQ" name="JavaDesignPatterns">
+    <eAnnotations xmi:id="_BEZ0oMCgEe2Uj9ginAxuEQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_BEZ0ocCgEe2Uj9ginAxuEQ" source="codegen">
+        <details xmi:id="_BEZ0osCgEe2Uj9ginAxuEQ" key="codegenDirectory" value="/JavaDesignPatterns/src"/>
+        <details xmi:id="_BOMp0MCgEe2Uj9ginAxuEQ" key="AssociatedSourceCode" value="/JavaDesignPatterns/src/ObserverPattern/GetTheStock.java;2480401208/1;/JavaDesignPatterns/src/ObserverPattern/GrabStocks.java;1670349387/1;/JavaDesignPatterns/src/ObserverPattern/Observer.java;1807608216/1;/JavaDesignPatterns/src/ObserverPattern/StockGrabber.java;3458953565/1;/JavaDesignPatterns/src/ObserverPattern/StockObserver.java;528032450/1;/JavaDesignPatterns/src/ObserverPattern/Subject.java;4260936911/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_BKOv0MCgEe2Uj9ginAxuEQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_BKOv0cCgEe2Uj9ginAxuEQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_BKPW4MCgEe2Uj9ginAxuEQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_BKPW4cCgEe2Uj9ginAxuEQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_BKP98MCgEe2Uj9ginAxuEQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_BKP98cCgEe2Uj9ginAxuEQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_BKP98sCgEe2Uj9ginAxuEQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_BKP988CgEe2Uj9ginAxuEQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_BKQlAMCgEe2Uj9ginAxuEQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_BKTBQMCgEe2Uj9ginAxuEQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_BKTBQcCgEe2Uj9ginAxuEQ" name="text">
+        <packagedElement xmi:type="uml:Class" xmi:id="_BLOOUMCgEe2Uj9ginAxuEQ" name="DecimalFormat"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_BKcyQMCgEe2Uj9ginAxuEQ" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_BLR4sMCgEe2Uj9ginAxuEQ" name="ArrayList"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_BLXYQMCgEe2Uj9ginAxuEQ" name="lang">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_BLX_UMCgEe2Uj9ginAxuEQ" name="Runnable"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_BKZH4MCgEe2Uj9ginAxuEQ" name="ObserverPattern">
+      <packagedElement xmi:type="uml:Class" xmi:id="_BKqNoMCgEe2Uj9ginAxuEQ" name="GetTheStock">
+        <ownedAttribute xmi:id="_BLZ0gMCgEe2Uj9ginAxuEQ" name="startTime" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_BLabkcCgEe2Uj9ginAxuEQ" name="stock" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_BLbCocCgEe2Uj9ginAxuEQ" name="price" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_BLbCo8CgEe2Uj9ginAxuEQ" name="stockGrabber" visibility="private" type="_BK8hgMCgEe2Uj9ginAxuEQ" association="_BLmBwMCgEe2Uj9ginAxuEQ"/>
+        <interfaceRealization xmi:id="_BLYmYcCgEe2Uj9ginAxuEQ" client="_BKqNoMCgEe2Uj9ginAxuEQ" supplier="_BLX_UMCgEe2Uj9ginAxuEQ" contract="_BLX_UMCgEe2Uj9ginAxuEQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BLhJQMCgEe2Uj9ginAxuEQ" name="GetTheStock" specification="_BLQDgMCgEe2Uj9ginAxuEQ">
+          <ownedParameter xmi:id="_BLhJQcCgEe2Uj9ginAxuEQ" name="stockGrabber" type="_BK8hgMCgEe2Uj9ginAxuEQ"/>
+          <ownedParameter xmi:id="_BLhJQsCgEe2Uj9ginAxuEQ" name="newStartTime">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_BLhJQ8CgEe2Uj9ginAxuEQ" name="newStock">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_BLhJRMCgEe2Uj9ginAxuEQ" name="newPrice">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_BLhJRcCgEe2Uj9ginAxuEQ" type="_BKqNoMCgEe2Uj9ginAxuEQ" direction="return"/>
+          <language>java</language>
+          <body>this.stockGrabber = stockGrabber;&#xD;
+		&#xD;
+		startTime = newStartTime;&#xD;
+		stock = newStock;&#xD;
+		price = newPrice;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BLhJRsCgEe2Uj9ginAxuEQ" name="run" specification="_BKt4AMCgEe2Uj9ginAxuEQ">
+          <language>java</language>
+          <body>for(int i=1; i&lt;=20; i++) {&#xD;
+			try {&#xD;
+				Thread.sleep(2000);&#xD;
+			} catch (InterruptedException e) {&#xD;
+				e.printStackTrace();&#xD;
+			}&#xD;
+			&#xD;
+			double randNum = (Math.random() * (0.6)) - 0.03;&#xD;
+			&#xD;
+			DecimalFormat df = new DecimalFormat(&quot;#.##&quot;);&#xD;
+			&#xD;
+			price = Double.valueOf(df.format(price + randNum));&#xD;
+			&#xD;
+			if(stock == &quot;IBM&quot;) ((StockGrabber) stockGrabber).setIBMPrice(price);&#xD;
+			if(stock == &quot;AAPL&quot;) ((StockGrabber) stockGrabber).setApplrice(price);&#xD;
+			if(stock == &quot;GOOGLE&quot;) ((StockGrabber) stockGrabber).setGooglePrice(price);&#xD;
+			&#xD;
+			System.out.println(stock + &quot;: &quot; + df.format((price + randNum)) + &#xD;
+					&quot; &quot; + df.format(randNum));&#xD;
+			&#xD;
+			System.out.println();&#xD;
+		}&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_BKt4AMCgEe2Uj9ginAxuEQ" name="run" method="_BLhJRsCgEe2Uj9ginAxuEQ"/>
+        <ownedOperation xmi:id="_BLQDgMCgEe2Uj9ginAxuEQ" name="GetTheStock" method="_BLhJQMCgEe2Uj9ginAxuEQ">
+          <eAnnotations xmi:id="_BLQqlMCgEe2Uj9ginAxuEQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_BLQqlcCgEe2Uj9ginAxuEQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_BLQqkMCgEe2Uj9ginAxuEQ" name="stockGrabber" type="_BK8hgMCgEe2Uj9ginAxuEQ"/>
+          <ownedParameter xmi:id="_BLQqkcCgEe2Uj9ginAxuEQ" name="newStartTime">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_BLQqksCgEe2Uj9ginAxuEQ" name="newStock">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_BLQqk8CgEe2Uj9ginAxuEQ" name="newPrice">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_BLQqlsCgEe2Uj9ginAxuEQ" type="_BKqNoMCgEe2Uj9ginAxuEQ" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_BKw7UMCgEe2Uj9ginAxuEQ" name="GrabStocks">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BLhJR8CgEe2Uj9ginAxuEQ" name="main" specification="_BKxiYMCgEe2Uj9ginAxuEQ">
+          <ownedParameter xmi:id="_BLhJSMCgEe2Uj9ginAxuEQ" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BLhJScCgEe2Uj9ginAxuEQ" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>StockGrabber grabber = new StockGrabber();&#xD;
+		&#xD;
+		StockObserver observer1 = new StockObserver(grabber);&#xD;
+		&#xD;
+		grabber.setIBMPrice(172.00);&#xD;
+		grabber.setApplrice(175.00);&#xD;
+		grabber.setGooglePrice(134.00);&#xD;
+		&#xD;
+		&#xD;
+		StockObserver observer2 = new StockObserver(grabber);&#xD;
+		&#xD;
+		grabber.setIBMPrice(122.00);&#xD;
+		grabber.setApplrice(125.00);&#xD;
+		grabber.setGooglePrice(234.00);&#xD;
+		&#xD;
+		grabber.unregister(observer1);&#xD;
+		&#xD;
+		grabber.setIBMPrice(172.00);&#xD;
+		grabber.setApplrice(175.00);&#xD;
+		grabber.setGooglePrice(134.00);&#xD;
+		&#xD;
+//		Runnable getIbm = new GetTheStock(grabber, 2, &quot;IBM&quot;, 197.00);&#xD;
+//		Runnable getAaple = new GetTheStock(grabber, 2, &quot;AAPL&quot;, 197.00);&#xD;
+//		Runnable getGoogle = new GetTheStock(grabber, 2, &quot;GOOGLE&quot;, 197.00);&#xD;
+//		&#xD;
+//		new Thread(getIbm).start();&#xD;
+//		new Thread(getAaple).start();&#xD;
+//		new Thread(getGoogle).start();&#xD;
+		&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_BKxiYMCgEe2Uj9ginAxuEQ" name="main" isStatic="true" method="_BLhJR8CgEe2Uj9ginAxuEQ">
+          <ownedParameter xmi:id="_BKyJcMCgEe2Uj9ginAxuEQ" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BKyJccCgEe2Uj9ginAxuEQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_BKyJcsCgEe2Uj9ginAxuEQ" name="Observer">
+        <ownedOperation xmi:id="_BKywgMCgEe2Uj9ginAxuEQ" name="update">
+          <ownedParameter xmi:id="_BKywgcCgEe2Uj9ginAxuEQ" name="ibmPrice">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_BKywgsCgEe2Uj9ginAxuEQ" name="applPrice">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_BKzXkMCgEe2Uj9ginAxuEQ" name="googlePrice">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_BKzXkcCgEe2Uj9ginAxuEQ" name="StockGrabber">
+        <ownedAttribute xmi:id="_BLbpscCgEe2Uj9ginAxuEQ" name="observers" visibility="private" type="_BLR4sMCgEe2Uj9ginAxuEQ" association="_BLmo0cCgEe2Uj9ginAxuEQ"/>
+        <ownedAttribute xmi:id="_BLc30cCgEe2Uj9ginAxuEQ" name="ibmPrice">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_BLc308CgEe2Uj9ginAxuEQ" name="aaplPrice">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_BLde4cCgEe2Uj9ginAxuEQ" name="googlePrice">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_BLSfwcCgEe2Uj9ginAxuEQ" client="_BKzXkcCgEe2Uj9ginAxuEQ" supplier="_BK8hgMCgEe2Uj9ginAxuEQ" contract="_BK8hgMCgEe2Uj9ginAxuEQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BLhwUMCgEe2Uj9ginAxuEQ" name="StockGrabber" specification="_BKz-oMCgEe2Uj9ginAxuEQ">
+          <ownedParameter xmi:id="_BLhwUcCgEe2Uj9ginAxuEQ" type="_BKzXkcCgEe2Uj9ginAxuEQ" direction="return"/>
+          <language>java</language>
+          <body>observers = new ArrayList&lt;Observer>();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BLhwUsCgEe2Uj9ginAxuEQ" name="register" specification="_BLTG0MCgEe2Uj9ginAxuEQ">
+          <ownedParameter xmi:id="_BLhwU8CgEe2Uj9ginAxuEQ" name="newObserver" type="_BKyJcsCgEe2Uj9ginAxuEQ"/>
+          <language>java</language>
+          <body>observers.add(newObserver);&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BLhwVMCgEe2Uj9ginAxuEQ" name="unregister" specification="_BLTt4sCgEe2Uj9ginAxuEQ">
+          <ownedParameter xmi:id="_BLhwVcCgEe2Uj9ginAxuEQ" name="deleteObserver" type="_BKyJcsCgEe2Uj9ginAxuEQ"/>
+          <language>java</language>
+          <body>int observerIndex = observers.indexOf(deleteObserver);&#xD;
+		&#xD;
+		System.out.println(&quot;Observer &quot; + (observerIndex+1) + &quot; deleted&quot;);&#xD;
+		&#xD;
+		observers.remove(observerIndex);&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BLhwVsCgEe2Uj9ginAxuEQ" name="notifyObserver" specification="_BK1MwMCgEe2Uj9ginAxuEQ">
+          <language>java</language>
+          <body>for(Observer observer : observers) {&#xD;
+			observer.update(ibmPrice, aaplPrice, googlePrice);&#xD;
+		}&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BLiXYMCgEe2Uj9ginAxuEQ" name="setIBMPrice" specification="_BK1z0sCgEe2Uj9ginAxuEQ">
+          <ownedParameter xmi:id="_BLiXYcCgEe2Uj9ginAxuEQ" name="newIBMPice">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.ibmPrice = newIBMPice;&#xD;
+		notifyObserver();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BLiXYsCgEe2Uj9ginAxuEQ" name="setApplrice" specification="_BK2a4MCgEe2Uj9ginAxuEQ">
+          <ownedParameter xmi:id="_BLiXY8CgEe2Uj9ginAxuEQ" name="newAaplPice">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.aaplPrice = newAaplPice;&#xD;
+		notifyObserver();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BLiXZMCgEe2Uj9ginAxuEQ" name="setGooglePrice" specification="_BK2a4sCgEe2Uj9ginAxuEQ">
+          <ownedParameter xmi:id="_BLiXZcCgEe2Uj9ginAxuEQ" name="newGooglePice">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.googlePrice = newGooglePice;&#xD;
+		notifyObserver();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_BKz-oMCgEe2Uj9ginAxuEQ" name="StockGrabber" method="_BLhwUMCgEe2Uj9ginAxuEQ">
+          <eAnnotations xmi:id="_BK0lsMCgEe2Uj9ginAxuEQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_BK0lscCgEe2Uj9ginAxuEQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_BK0lssCgEe2Uj9ginAxuEQ" type="_BKzXkcCgEe2Uj9ginAxuEQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_BK1MwMCgEe2Uj9ginAxuEQ" name="notifyObserver" method="_BLhwVsCgEe2Uj9ginAxuEQ"/>
+        <ownedOperation xmi:id="_BK1z0sCgEe2Uj9ginAxuEQ" name="setIBMPrice" method="_BLiXYMCgEe2Uj9ginAxuEQ">
+          <ownedParameter xmi:id="_BK1z08CgEe2Uj9ginAxuEQ" name="newIBMPice">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_BK2a4MCgEe2Uj9ginAxuEQ" name="setApplrice" method="_BLiXYsCgEe2Uj9ginAxuEQ">
+          <ownedParameter xmi:id="_BK2a4cCgEe2Uj9ginAxuEQ" name="newAaplPice">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_BK2a4sCgEe2Uj9ginAxuEQ" name="setGooglePrice" method="_BLiXZMCgEe2Uj9ginAxuEQ">
+          <ownedParameter xmi:id="_BK2a48CgEe2Uj9ginAxuEQ" name="newGooglePice">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_BLTG0MCgEe2Uj9ginAxuEQ" name="register" method="_BLhwUsCgEe2Uj9ginAxuEQ">
+          <ownedParameter xmi:id="_BLTG0cCgEe2Uj9ginAxuEQ" name="newObserver" type="_BKyJcsCgEe2Uj9ginAxuEQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_BLTt4sCgEe2Uj9ginAxuEQ" name="unregister" method="_BLhwVMCgEe2Uj9ginAxuEQ">
+          <ownedParameter xmi:id="_BLTt48CgEe2Uj9ginAxuEQ" name="deleteObserver" type="_BKyJcsCgEe2Uj9ginAxuEQ"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_BK43IMCgEe2Uj9ginAxuEQ" name="StockObserver">
+        <ownedAttribute xmi:id="_BLeF8cCgEe2Uj9ginAxuEQ" name="ibmPrice" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_BLetAMCgEe2Uj9ginAxuEQ" name="aaplPrice" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_BLetAsCgEe2Uj9ginAxuEQ" name="googlePrice" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_BLfUEcCgEe2Uj9ginAxuEQ" name="obserIDTracker" visibility="private" isStatic="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_BLfUEsCgEe2Uj9ginAxuEQ" value="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_BLf7IMCgEe2Uj9ginAxuEQ" name="observerId" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_BLf7IsCgEe2Uj9ginAxuEQ" name="stockGrabber" visibility="private" type="_BK8hgMCgEe2Uj9ginAxuEQ" association="_BLn28cCgEe2Uj9ginAxuEQ"/>
+        <interfaceRealization xmi:id="_BLU8AMCgEe2Uj9ginAxuEQ" client="_BK43IMCgEe2Uj9ginAxuEQ" supplier="_BKyJcsCgEe2Uj9ginAxuEQ" contract="_BKyJcsCgEe2Uj9ginAxuEQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BLiXZsCgEe2Uj9ginAxuEQ" name="StockObserver" specification="_BLVjEMCgEe2Uj9ginAxuEQ">
+          <ownedParameter xmi:id="_BLiXZ8CgEe2Uj9ginAxuEQ" name="stockGrabber" type="_BK8hgMCgEe2Uj9ginAxuEQ"/>
+          <ownedParameter xmi:id="_BLiXaMCgEe2Uj9ginAxuEQ" type="_BK43IMCgEe2Uj9ginAxuEQ" direction="return"/>
+          <language>java</language>
+          <body>this.stockGrabber = stockGrabber;&#xD;
+		this.observerId = ++obserIDTracker;&#xD;
+		System.out.println(&quot;New Observer &quot;+ this.observerId);&#xD;
+		stockGrabber.register(this);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BLi-cMCgEe2Uj9ginAxuEQ" name="update" specification="_BK6FQMCgEe2Uj9ginAxuEQ">
+          <ownedParameter xmi:id="_BLi-ccCgEe2Uj9ginAxuEQ" name="ibmPrice">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_BLi-csCgEe2Uj9ginAxuEQ" name="aaplPrice">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_BLi-c8CgEe2Uj9ginAxuEQ" name="googlePrice">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.ibmPrice = ibmPrice;&#xD;
+		this.aaplPrice = aaplPrice;&#xD;
+		this.googlePrice = googlePrice;&#xD;
+		&#xD;
+		printThePrices();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BLi-dMCgEe2Uj9ginAxuEQ" name="printThePrices" specification="_BK6sU8CgEe2Uj9ginAxuEQ">
+          <language>java</language>
+          <body>System.out.println(observerId + &quot;\nIBM: &quot; + ibmPrice + &#xD;
+				&quot;\nAAPL: &quot; + aaplPrice + &quot;\nGoogl: &quot;+ googlePrice);&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_BK6FQMCgEe2Uj9ginAxuEQ" name="update" method="_BLi-cMCgEe2Uj9ginAxuEQ">
+          <ownedParameter xmi:id="_BK6FQcCgEe2Uj9ginAxuEQ" name="ibmPrice">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_BK6FQsCgEe2Uj9ginAxuEQ" name="aaplPrice">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_BK6FQ8CgEe2Uj9ginAxuEQ" name="googlePrice">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_BK6sU8CgEe2Uj9ginAxuEQ" name="printThePrices" visibility="private" method="_BLi-dMCgEe2Uj9ginAxuEQ"/>
+        <ownedOperation xmi:id="_BLVjEMCgEe2Uj9ginAxuEQ" name="StockObserver" method="_BLiXZsCgEe2Uj9ginAxuEQ">
+          <eAnnotations xmi:id="_BLVjEsCgEe2Uj9ginAxuEQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_BLVjE8CgEe2Uj9ginAxuEQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_BLVjEcCgEe2Uj9ginAxuEQ" name="stockGrabber" type="_BK8hgMCgEe2Uj9ginAxuEQ"/>
+          <ownedParameter xmi:id="_BLVjFMCgEe2Uj9ginAxuEQ" type="_BK43IMCgEe2Uj9ginAxuEQ" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_BK8hgMCgEe2Uj9ginAxuEQ" name="Subject">
+        <ownedOperation xmi:id="_BK9IkMCgEe2Uj9ginAxuEQ" name="notifyObserver"/>
+        <ownedOperation xmi:id="_BLWKIMCgEe2Uj9ginAxuEQ" name="register">
+          <ownedParameter xmi:id="_BLWKIcCgEe2Uj9ginAxuEQ" name="o" type="_BKyJcsCgEe2Uj9ginAxuEQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_BLWxMMCgEe2Uj9ginAxuEQ" name="unregister">
+          <ownedParameter xmi:id="_BLWxMcCgEe2Uj9ginAxuEQ" name="o" type="_BKyJcsCgEe2Uj9ginAxuEQ"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_BLmBwMCgEe2Uj9ginAxuEQ" name="" memberEnd="_BLmBwcCgEe2Uj9ginAxuEQ _BLbCo8CgEe2Uj9ginAxuEQ">
+        <ownedEnd xmi:id="_BLmBwcCgEe2Uj9ginAxuEQ" name="" type="_BKqNoMCgEe2Uj9ginAxuEQ" association="_BLmBwMCgEe2Uj9ginAxuEQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_BLmo0cCgEe2Uj9ginAxuEQ" name="" memberEnd="_BLmo0sCgEe2Uj9ginAxuEQ _BLbpscCgEe2Uj9ginAxuEQ">
+        <ownedEnd xmi:id="_BLmo0sCgEe2Uj9ginAxuEQ" name="" type="_BKzXkcCgEe2Uj9ginAxuEQ" association="_BLmo0cCgEe2Uj9ginAxuEQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_BLn28cCgEe2Uj9ginAxuEQ" name="" memberEnd="_BLn28sCgEe2Uj9ginAxuEQ _BLf7IsCgEe2Uj9ginAxuEQ">
+        <ownedEnd xmi:id="_BLn28sCgEe2Uj9ginAxuEQ" name="" type="_BK43IMCgEe2Uj9ginAxuEQ" association="_BLn28cCgEe2Uj9ginAxuEQ"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_BEabsMCgEe2Uj9ginAxuEQ">
+      <eAnnotations xmi:id="_BEeGEMCgEe2Uj9ginAxuEQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_BEf7QMCgEe2Uj9ginAxuEQ" base_Package="_A_358MCgEe2Uj9ginAxuEQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_BKufEMCgEe2Uj9ginAxuEQ" base_Element="_BKt4AMCgEe2Uj9ginAxuEQ"/>
+  <UMLLabProfile:Annotations xmi:id="_BKvGIMCgEe2Uj9ginAxuEQ" base_Element="_BKt4AMCgEe2Uj9ginAxuEQ">
+    <annotations xmi:id="_BKvtMMCgEe2Uj9ginAxuEQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_BK1MwcCgEe2Uj9ginAxuEQ" base_Element="_BK1MwMCgEe2Uj9ginAxuEQ"/>
+  <UMLLabProfile:Annotations xmi:id="_BK1z0MCgEe2Uj9ginAxuEQ" base_Element="_BK1MwMCgEe2Uj9ginAxuEQ">
+    <annotations xmi:id="_BK1z0cCgEe2Uj9ginAxuEQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_BK6sUMCgEe2Uj9ginAxuEQ" base_Element="_BK6FQMCgEe2Uj9ginAxuEQ"/>
+  <UMLLabProfile:Annotations xmi:id="_BK6sUcCgEe2Uj9ginAxuEQ" base_Element="_BK6FQMCgEe2Uj9ginAxuEQ">
+    <annotations xmi:id="_BK6sUsCgEe2Uj9ginAxuEQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_BLPccMCgEe2Uj9ginAxuEQ" base_Element="_BLOOUMCgEe2Uj9ginAxuEQ"/>
+  <UMLLabProfile:Reference xmi:id="_BLSfwMCgEe2Uj9ginAxuEQ" base_Element="_BLR4sMCgEe2Uj9ginAxuEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_BLTG0sCgEe2Uj9ginAxuEQ" base_Element="_BLTG0MCgEe2Uj9ginAxuEQ"/>
+  <UMLLabProfile:Annotations xmi:id="_BLTt4MCgEe2Uj9ginAxuEQ" base_Element="_BLTG0MCgEe2Uj9ginAxuEQ">
+    <annotations xmi:id="_BLTt4cCgEe2Uj9ginAxuEQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_BLTt5MCgEe2Uj9ginAxuEQ" base_Element="_BLTt4sCgEe2Uj9ginAxuEQ"/>
+  <UMLLabProfile:Annotations xmi:id="_BLUU8MCgEe2Uj9ginAxuEQ" base_Element="_BLTt4sCgEe2Uj9ginAxuEQ">
+    <annotations xmi:id="_BLUU8cCgEe2Uj9ginAxuEQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_BLYmYMCgEe2Uj9ginAxuEQ" base_Element="_BLX_UMCgEe2Uj9ginAxuEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_BLabkMCgEe2Uj9ginAxuEQ" base_Element="_BLZ0gMCgEe2Uj9ginAxuEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_BLbCoMCgEe2Uj9ginAxuEQ" base_Element="_BLabkcCgEe2Uj9ginAxuEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_BLbCosCgEe2Uj9ginAxuEQ" base_Element="_BLbCocCgEe2Uj9ginAxuEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_BLbpsMCgEe2Uj9ginAxuEQ" base_Element="_BLbCo8CgEe2Uj9ginAxuEQ"/>
+  <UMLLabProfile:Generics xmi:id="_BLcQwMCgEe2Uj9ginAxuEQ" genericsValue="Observer" base_Element="_BLbpscCgEe2Uj9ginAxuEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_BLc30MCgEe2Uj9ginAxuEQ" base_Element="_BLbpscCgEe2Uj9ginAxuEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_BLc30sCgEe2Uj9ginAxuEQ" base_Element="_BLc30cCgEe2Uj9ginAxuEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_BLde4MCgEe2Uj9ginAxuEQ" base_Element="_BLc308CgEe2Uj9ginAxuEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_BLeF8MCgEe2Uj9ginAxuEQ" base_Element="_BLde4cCgEe2Uj9ginAxuEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_BLeF8sCgEe2Uj9ginAxuEQ" base_Element="_BLeF8cCgEe2Uj9ginAxuEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_BLetAcCgEe2Uj9ginAxuEQ" base_Element="_BLetAMCgEe2Uj9ginAxuEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_BLfUEMCgEe2Uj9ginAxuEQ" base_Element="_BLetAsCgEe2Uj9ginAxuEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_BLfUE8CgEe2Uj9ginAxuEQ" base_Element="_BLfUEcCgEe2Uj9ginAxuEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_BLf7IcCgEe2Uj9ginAxuEQ" base_Element="_BLf7IMCgEe2Uj9ginAxuEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_BLgiMMCgEe2Uj9ginAxuEQ" base_Element="_BLf7IsCgEe2Uj9ginAxuEQ"/>
+  <UMLLabProfile:Reference xmi:id="_BLmo0MCgEe2Uj9ginAxuEQ" base_Element="_BLmBwMCgEe2Uj9ginAxuEQ"/>
+  <UMLLabProfile:Reference xmi:id="_BLn28MCgEe2Uj9ginAxuEQ" base_Element="_BLmo0cCgEe2Uj9ginAxuEQ"/>
+  <UMLLabProfile:Reference xmi:id="_BLoeAMCgEe2Uj9ginAxuEQ" base_Element="_BLn28cCgEe2Uj9ginAxuEQ"/>
+</xmi:XMI>
