@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_DcPf0L5dEe2TS8wnAxt4Cw" name="JavaDesignPatterns">
+    <eAnnotations xmi:id="_Dno3gL5dEe2TS8wnAxt4Cw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_Dno3gb5dEe2TS8wnAxt4Cw" source="codegen">
+        <details xmi:id="_Dno3gr5dEe2TS8wnAxt4Cw" key="codegenDirectory" value="/JavaDesignPatterns/src"/>
+        <details xmi:id="_D2Wo8L5dEe2TS8wnAxt4Cw" key="AssociatedSourceCode" value="/JavaDesignPatterns/src/StrategyPattern/Animal.java;1323384929/1;/JavaDesignPatterns/src/StrategyPattern/Birds.java;1263626941/1;/JavaDesignPatterns/src/StrategyPattern/Dog.java;2766730998/1;/JavaDesignPatterns/src/StrategyPattern/Flys.java;3818417737/1;/JavaDesignPatterns/src/StrategyPattern/StrategyMain.java;1838482834/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_DyKsgL5dEe2TS8wnAxt4Cw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_DyKsgb5dEe2TS8wnAxt4Cw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_DyKsgr5dEe2TS8wnAxt4Cw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_DyLTkL5dEe2TS8wnAxt4Cw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_DyLTkb5dEe2TS8wnAxt4Cw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_DyLTkr5dEe2TS8wnAxt4Cw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_DyLTk75dEe2TS8wnAxt4Cw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_DyLTlL5dEe2TS8wnAxt4Cw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_DyL6oL5dEe2TS8wnAxt4Cw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_DyT2cL5dEe2TS8wnAxt4Cw" name="StrategyPattern">
+      <packagedElement xmi:type="uml:Class" xmi:id="_Dyif8L5dEe2TS8wnAxt4Cw" name="Animal">
+        <ownedAttribute xmi:id="_DzkasL5dEe2TS8wnAxt4Cw" name="name">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Dzkasb5dEe2TS8wnAxt4Cw" name="height">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_DzlBwL5dEe2TS8wnAxt4Cw" name="weight">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_DzmP4b5dEe2TS8wnAxt4Cw" name="favFood">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_DzmP4r5dEe2TS8wnAxt4Cw" name="speed">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Dzm28L5dEe2TS8wnAxt4Cw" name="sound">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Dzm28b5dEe2TS8wnAxt4Cw" name="flyingType" type="_DyuGIL5dEe2TS8wnAxt4Cw" association="_DzzEML5dEe2TS8wnAxt4Cw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DzwA4L5dEe2TS8wnAxt4Cw" name="tryToFly" specification="_DymxYL5dEe2TS8wnAxt4Cw">
+          <ownedParameter xmi:id="_DzwA4b5dEe2TS8wnAxt4Cw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return flyingType.fly();&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DzwA4r5dEe2TS8wnAxt4Cw" name="setFlyingAbility" specification="_DzeUEL5dEe2TS8wnAxt4Cw">
+          <ownedParameter xmi:id="_DzwA475dEe2TS8wnAxt4Cw" name="newFlyType" type="_DyuGIL5dEe2TS8wnAxt4Cw"/>
+          <language>java</language>
+          <body>flyingType = newFlyType;&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_DymxYL5dEe2TS8wnAxt4Cw" name="tryToFly" method="_DzwA4L5dEe2TS8wnAxt4Cw">
+          <ownedComment xmi:id="_Dzx2EL5dEe2TS8wnAxt4Cw">
+            <body>BAD You don't want to add methods to the super class. You need to separate&#xD;
+	 * what is different between subclasses and the super class public void fly(){&#xD;
+	 * &#xD;
+	 * System.out.println(&quot;I'm flying&quot;);&#xD;
+	 * &#xD;
+	 * }</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_DynYcL5dEe2TS8wnAxt4Cw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_DzeUEL5dEe2TS8wnAxt4Cw" name="setFlyingAbility" method="_DzwA4r5dEe2TS8wnAxt4Cw">
+          <ownedParameter xmi:id="_DzeUEb5dEe2TS8wnAxt4Cw" name="newFlyType" type="_DyuGIL5dEe2TS8wnAxt4Cw"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_DyqbwL5dEe2TS8wnAxt4Cw" name="Birds">
+        <generalization xmi:id="_Dze7IL5dEe2TS8wnAxt4Cw" general="_Dyif8L5dEe2TS8wnAxt4Cw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Dzwn8L5dEe2TS8wnAxt4Cw" name="Birds" specification="_DyrC0L5dEe2TS8wnAxt4Cw">
+          <ownedParameter xmi:id="_Dzwn8b5dEe2TS8wnAxt4Cw" type="_DyqbwL5dEe2TS8wnAxt4Cw" direction="return"/>
+          <language>java</language>
+          <body>super();&#xD;
+			&#xD;
+			setSound(&quot;Tweet&quot;);&#xD;
+			&#xD;
+			// We set the Flys interface polymorphically&#xD;
+			// This sets the behavior as a non-flying Animal&#xD;
+			&#xD;
+			flyingType = new ItFlys();&#xD;
+			&#xD;
+		</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_DyrC0L5dEe2TS8wnAxt4Cw" name="Birds" method="_Dzwn8L5dEe2TS8wnAxt4Cw">
+          <eAnnotations xmi:id="_Dyrp4L5dEe2TS8wnAxt4Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_Dyrp4b5dEe2TS8wnAxt4Cw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_Dyrp4r5dEe2TS8wnAxt4Cw" type="_DyqbwL5dEe2TS8wnAxt4Cw" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_DysQ8L5dEe2TS8wnAxt4Cw" name="Dog">
+        <generalization xmi:id="_DzfiML5dEe2TS8wnAxt4Cw" general="_Dyif8L5dEe2TS8wnAxt4Cw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Dzwn8r5dEe2TS8wnAxt4Cw" name="digHole" specification="_Dys4AL5dEe2TS8wnAxt4Cw">
+          <language>java</language>
+          <body>System.out.println(&quot;Dug a hole&quot;);&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Dzwn875dEe2TS8wnAxt4Cw" name="Dog" specification="_Dys4Ab5dEe2TS8wnAxt4Cw">
+          <ownedParameter xmi:id="_Dzwn9L5dEe2TS8wnAxt4Cw" type="_DysQ8L5dEe2TS8wnAxt4Cw" direction="return"/>
+          <language>java</language>
+          <body>super();&#xD;
+&#xD;
+		setSound(&quot;Bark&quot;);&#xD;
+&#xD;
+		// We set the Flys interface polymorphically&#xD;
+		// This sets the behavior as a non-flying Animal&#xD;
+&#xD;
+//		flyingType = new CantFly();&#xD;
+		flyingType = new CantFly();&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Dys4AL5dEe2TS8wnAxt4Cw" name="digHole" method="_Dzwn8r5dEe2TS8wnAxt4Cw"/>
+        <ownedOperation xmi:id="_Dys4Ab5dEe2TS8wnAxt4Cw" name="Dog" method="_Dzwn875dEe2TS8wnAxt4Cw">
+          <eAnnotations xmi:id="_DytfEL5dEe2TS8wnAxt4Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_DytfEb5dEe2TS8wnAxt4Cw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_DytfEr5dEe2TS8wnAxt4Cw" type="_DysQ8L5dEe2TS8wnAxt4Cw" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_DyuGIL5dEe2TS8wnAxt4Cw" name="Flys">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_DyutML5dEe2TS8wnAxt4Cw" name="ItFlys" visibility="package">
+          <eAnnotations xmi:id="_DyvUQL5dEe2TS8wnAxt4Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_DyvUQb5dEe2TS8wnAxt4Cw" key="sameFile"/>
+          </eAnnotations>
+          <interfaceRealization xmi:id="_Dzh-cL5dEe2TS8wnAxt4Cw" client="_DyutML5dEe2TS8wnAxt4Cw" supplier="_DyuGIL5dEe2TS8wnAxt4Cw" contract="_DyuGIL5dEe2TS8wnAxt4Cw"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Dzwn9b5dEe2TS8wnAxt4Cw" name="fly" specification="_Dyv7UL5dEe2TS8wnAxt4Cw">
+            <ownedParameter xmi:id="_Dzwn9r5dEe2TS8wnAxt4Cw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return &quot;Flying High&quot;;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_Dyv7UL5dEe2TS8wnAxt4Cw" name="fly" method="_Dzwn9b5dEe2TS8wnAxt4Cw">
+            <ownedParameter xmi:id="_Dyv7Ub5dEe2TS8wnAxt4Cw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_DywiYL5dEe2TS8wnAxt4Cw" name="CantFly" visibility="package">
+          <eAnnotations xmi:id="_DywiYb5dEe2TS8wnAxt4Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_DywiYr5dEe2TS8wnAxt4Cw" key="sameFile"/>
+          </eAnnotations>
+          <interfaceRealization xmi:id="_DzjMkL5dEe2TS8wnAxt4Cw" client="_DywiYL5dEe2TS8wnAxt4Cw" supplier="_DyuGIL5dEe2TS8wnAxt4Cw" contract="_DyuGIL5dEe2TS8wnAxt4Cw"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DzxPAL5dEe2TS8wnAxt4Cw" name="fly" specification="_DyxJcL5dEe2TS8wnAxt4Cw">
+            <ownedParameter xmi:id="_DzxPAb5dEe2TS8wnAxt4Cw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return &quot;I cannot fly&quot;;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_DyxJcL5dEe2TS8wnAxt4Cw" name="fly" method="_DzxPAL5dEe2TS8wnAxt4Cw">
+            <ownedParameter xmi:id="_DyxJcb5dEe2TS8wnAxt4Cw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </nestedClassifier>
+        <ownedOperation xmi:id="_DyxwgL5dEe2TS8wnAxt4Cw" name="fly">
+          <ownedParameter xmi:id="_Dyxwgb5dEe2TS8wnAxt4Cw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Dyy-oL5dEe2TS8wnAxt4Cw" name="StrategyMain">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DzxPAr5dEe2TS8wnAxt4Cw" name="main" specification="_DyzlsL5dEe2TS8wnAxt4Cw">
+          <ownedParameter xmi:id="_DzxPA75dEe2TS8wnAxt4Cw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DzxPBL5dEe2TS8wnAxt4Cw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Animal doggy = new Dog();&#xD;
+		Animal tweety = new Birds();&#xD;
+		&#xD;
+		System.out.println(&quot;Dog: &quot; + doggy.tryToFly());&#xD;
+		&#xD;
+		System.out.println(&quot;Bird: &quot; + tweety.tryToFly());&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_DyzlsL5dEe2TS8wnAxt4Cw" name="main" isStatic="true" method="_DzxPAr5dEe2TS8wnAxt4Cw">
+          <ownedParameter xmi:id="_Dyzlsb5dEe2TS8wnAxt4Cw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Dy0MwL5dEe2TS8wnAxt4Cw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_DzzEML5dEe2TS8wnAxt4Cw" name="" memberEnd="_DzzEMb5dEe2TS8wnAxt4Cw _Dzm28b5dEe2TS8wnAxt4Cw">
+        <ownedEnd xmi:id="_DzzEMb5dEe2TS8wnAxt4Cw" name="" type="_Dyif8L5dEe2TS8wnAxt4Cw" association="_DzzEML5dEe2TS8wnAxt4Cw"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_DnqFoL5dEe2TS8wnAxt4Cw">
+      <eAnnotations xmi:id="_DntI8L5dEe2TS8wnAxt4Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_DnwzUL5dEe2TS8wnAxt4Cw" base_Package="_DcPf0L5dEe2TS8wnAxt4Cw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DzlBwb5dEe2TS8wnAxt4Cw" base_Element="_DzlBwL5dEe2TS8wnAxt4Cw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_Dzlo0L5dEe2TS8wnAxt4Cw" name="getWeight" method="_DzrvcL5dEe2TS8wnAxt4Cw">
+      <ownedParameter xmi:id="_DzmP4L5dEe2TS8wnAxt4Cw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_Dzlo0b5dEe2TS8wnAxt4Cw" name="setWeight" method="_DzvZ0L5dEe2TS8wnAxt4Cw">
+      <ownedParameter xmi:id="_Dzlo0r5dEe2TS8wnAxt4Cw" name="newWeight">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Dzm28r5dEe2TS8wnAxt4Cw" base_Element="_Dzm28b5dEe2TS8wnAxt4Cw"/>
+  <uml:OpaqueBehavior xmi:id="_DzrvcL5dEe2TS8wnAxt4Cw" name="getWeight" specification="_Dzlo0L5dEe2TS8wnAxt4Cw">
+    <ownedParameter xmi:id="_DzuywL5dEe2TS8wnAxt4Cw" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return weight;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_DzvZ0L5dEe2TS8wnAxt4Cw" name="setWeight" specification="_Dzlo0b5dEe2TS8wnAxt4Cw">
+    <ownedParameter xmi:id="_DzvZ0b5dEe2TS8wnAxt4Cw" name="newWeight">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>if (newWeight > 0) {&#xD;
+			weight = newWeight;&#xD;
+		} else {&#xD;
+			System.out.println(&quot;Weight must be bigger than 0&quot;);&#xD;
+		}&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_DzzrQL5dEe2TS8wnAxt4Cw" base_Element="_DzzEML5dEe2TS8wnAxt4Cw"/>
+</xmi:XMI>

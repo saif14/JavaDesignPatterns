@@ -1,0 +1,5 @@
+1. The Observer Pattern is a software design pattern in which an object, called the
+	subject, maintains a list of its dependents, called observers, and notifies them
+	automatically of any state changes, usually by calling one of their methods
+2.	This pattern is useful when you have one-to-many relationships between objects, 
+	and you want to avoid tight coupling between them.

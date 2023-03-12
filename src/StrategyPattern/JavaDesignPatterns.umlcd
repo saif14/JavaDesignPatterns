@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_DeT8YL5dEe2TS8wnAxt4Cw">
+  <modelElement href="JavaDesignPatterns.uml#_DyT2cL5dEe2TS8wnAxt4Cw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_D2dWoL5dEe2TS8wnAxt4Cw" sourceAnchor="78.0,0.0" targetAnchor="63.0,71.0" dashed="true" superClass="_D2jdQL5dEe2TS8wnAxt4Cw" subClass="_D3OLoL5dEe2TS8wnAxt4Cw">
+    <modelElement href="JavaDesignPatterns.uml#_Dzh-cL5dEe2TS8wnAxt4Cw"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_D2d9sL5dEe2TS8wnAxt4Cw" sourceAnchor="63.0,0.0" targetAnchor="63.0,71.0" dashed="true" superClass="_D2jdQL5dEe2TS8wnAxt4Cw" subClass="_D3XVkL5dEe2TS8wnAxt4Cw">
+    <modelElement href="JavaDesignPatterns.uml#_DzjMkL5dEe2TS8wnAxt4Cw"/>
+    <visualProperties xmi:id="_HpCQYL5dEe2TS8wnAxt4Cw" position="0.0,0.0"/>
+    <bendpoints xmi:id="_H_hdwL5dEe2TS8wnAxt4Cw" sourceY="-28" targetX="181" targetY="27"/>
+    <bendpoints xmi:id="_H_hdwb5dEe2TS8wnAxt4Cw" sourceX="-181" sourceY="-28" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_D3eDQL5dEe2TS8wnAxt4Cw" sourceAnchor="142.0,0.0" targetAnchor="126.0,35.0" target="_D2jdQL5dEe2TS8wnAxt4Cw" source="_D3l_EL5dEe2TS8wnAxt4Cw">
+    <modelElement href="JavaDesignPatterns.uml#_DzzEML5dEe2TS8wnAxt4Cw"/>
+    <bendpoints xmi:id="_H_iE0r5dEe2TS8wnAxt4Cw" sourceY="-258" targetX="196"/>
+    <stereotypes xmi:id="_D3hGkL5dEe2TS8wnAxt4Cw" name="Reference">
+      <modelElement href="JavaDesignPatterns.uml#_DzzrQL5dEe2TS8wnAxt4Cw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_D3f4cL5dEe2TS8wnAxt4Cw" text="">
+      <visualProperties xmi:id="_D9i2EL5dEe2TS8wnAxt4Cw" position="-26.0,221.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_D3gfgL5dEe2TS8wnAxt4Cw" aggregationKind="NONE" name="">
+      <modelElement href="JavaDesignPatterns.uml#_DzzEMb5dEe2TS8wnAxt4Cw"/>
+      <visualProperties xmi:id="_D9iPAb5dEe2TS8wnAxt4Cw" position="-18.0,-77.0"/>
+      <visibility xmi:id="_D3kw8b5dEe2TS8wnAxt4Cw" label="+"/>
+      <cardinality xmi:id="_D3kw8L5dEe2TS8wnAxt4Cw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_D3gfgb5dEe2TS8wnAxt4Cw" aggregationKind="NONE" name="flyingType" navigable="true">
+      <modelElement href="JavaDesignPatterns.uml#_Dzm28b5dEe2TS8wnAxt4Cw"/>
+      <visualProperties xmi:id="_D9i2Eb5dEe2TS8wnAxt4Cw" position="151.0,241.0"/>
+      <visibility xmi:id="_D3kw875dEe2TS8wnAxt4Cw" label="+"/>
+      <cardinality xmi:id="_D3kw8r5dEe2TS8wnAxt4Cw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_D3fRYL5dEe2TS8wnAxt4Cw" sourceAnchor="0.0,27.0" targetAnchor="247.0,97.0" superClass="_D3l_EL5dEe2TS8wnAxt4Cw" subClass="_D3bnAL5dEe2TS8wnAxt4Cw">
+    <modelElement href="JavaDesignPatterns.uml#_Dze7IL5dEe2TS8wnAxt4Cw"/>
+    <bendpoints xmi:id="_H_iE0L5dEe2TS8wnAxt4Cw" sourceX="-30" targetX="49" targetY="303"/>
+    <bendpoints xmi:id="_H_iE0b5dEe2TS8wnAxt4Cw" sourceX="-30" sourceY="-303" targetX="49"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_D3fRYb5dEe2TS8wnAxt4Cw" sourceAnchor="0.0,36.0" targetAnchor="247.0,97.0" superClass="_D3l_EL5dEe2TS8wnAxt4Cw" subClass="_D3Zx0L5dEe2TS8wnAxt4Cw">
+    <modelElement href="JavaDesignPatterns.uml#_DzfiML5dEe2TS8wnAxt4Cw"/>
+    <bendpoints xmi:id="_H_hdwr5dEe2TS8wnAxt4Cw" sourceX="-34" targetX="49" targetY="135"/>
+    <bendpoints xmi:id="_H_hdw75dEe2TS8wnAxt4Cw" sourceX="-34" sourceY="-135" targetX="49"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_D3iUsL5dEe2TS8wnAxt4Cw" targetItem="_D3l_Mb5dEe2TS8wnAxt4Cw" sourceItem="_D3htoL5dEe2TS8wnAxt4Cw"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_D3htoL5dEe2TS8wnAxt4Cw" sourceConnectionVisual="_D3iUsL5dEe2TS8wnAxt4Cw" text="BAD You don't want to add methods to the super class. You need to separate&#xD;&#xA;&#x9; * what is different between subclasses and the super class public void fly(){&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * System.out.println(&quot;I'm flying&quot;);&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * }" item="_D3l_Mb5dEe2TS8wnAxt4Cw">
+    <modelElement href="JavaDesignPatterns.uml#_Dzx2EL5dEe2TS8wnAxt4Cw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_D3OLoL5dEe2TS8wnAxt4Cw" name="ItFlys" generalizations="_D2dWoL5dEe2TS8wnAxt4Cw">
+    <modelElement href="JavaDesignPatterns.uml#_DyutML5dEe2TS8wnAxt4Cw"/>
+    <visualProperties xmi:id="_D3OLob5dEe2TS8wnAxt4Cw" position="15.0,240.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_D3OLor5dEe2TS8wnAxt4Cw" keyword="sameFile"/>
+    <visibility xmi:id="_D3OLo75dEe2TS8wnAxt4Cw" label="~"/>
+    <operations xmi:id="_D3OLpL5dEe2TS8wnAxt4Cw" name="fly">
+      <modelElement href="JavaDesignPatterns.uml#_Dyv7UL5dEe2TS8wnAxt4Cw"/>
+      <visibility xmi:id="_D3OLpb5dEe2TS8wnAxt4Cw" label="+"/>
+      <cardinality xmi:id="_D3OLpr5dEe2TS8wnAxt4Cw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_D3OLp75dEe2TS8wnAxt4Cw">
+        <modelElement href="JavaDesignPatterns.uml#_Dyv7Ub5dEe2TS8wnAxt4Cw"/>
+        <type xmi:id="_D3OLqL5dEe2TS8wnAxt4Cw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_D3XVkL5dEe2TS8wnAxt4Cw" name="CantFly" generalizations="_D2d9sL5dEe2TS8wnAxt4Cw">
+    <modelElement href="JavaDesignPatterns.uml#_DywiYL5dEe2TS8wnAxt4Cw"/>
+    <visualProperties xmi:id="_D3XVkb5dEe2TS8wnAxt4Cw" position="211.0,156.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_D3XVkr5dEe2TS8wnAxt4Cw" keyword="sameFile"/>
+    <visibility xmi:id="_D3XVk75dEe2TS8wnAxt4Cw" label="~"/>
+    <operations xmi:id="_D3XVlL5dEe2TS8wnAxt4Cw" name="fly">
+      <modelElement href="JavaDesignPatterns.uml#_DyxJcL5dEe2TS8wnAxt4Cw"/>
+      <visibility xmi:id="_D3XVlb5dEe2TS8wnAxt4Cw" label="+"/>
+      <cardinality xmi:id="_D3XVlr5dEe2TS8wnAxt4Cw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_D3XVl75dEe2TS8wnAxt4Cw">
+        <modelElement href="JavaDesignPatterns.uml#_DyxJcb5dEe2TS8wnAxt4Cw"/>
+        <type xmi:id="_D3XVmL5dEe2TS8wnAxt4Cw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_D3Zx0L5dEe2TS8wnAxt4Cw" name="Dog" generalizations="_D3fRYb5dEe2TS8wnAxt4Cw">
+    <modelElement href="JavaDesignPatterns.uml#_DysQ8L5dEe2TS8wnAxt4Cw"/>
+    <visualProperties xmi:id="_D3Zx0b5dEe2TS8wnAxt4Cw" position="540.0,519.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_D3Zx0r5dEe2TS8wnAxt4Cw" label="+"/>
+    <operations xmi:id="_D3Zx075dEe2TS8wnAxt4Cw" name="digHole">
+      <modelElement href="JavaDesignPatterns.uml#_Dys4AL5dEe2TS8wnAxt4Cw"/>
+      <visibility xmi:id="_D3Zx1L5dEe2TS8wnAxt4Cw" label="+"/>
+      <cardinality xmi:id="_D3Zx1b5dEe2TS8wnAxt4Cw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_D3Zx1r5dEe2TS8wnAxt4Cw" name="Dog">
+      <modelElement href="JavaDesignPatterns.uml#_Dys4Ab5dEe2TS8wnAxt4Cw"/>
+      <keywords xmi:id="_D3Zx175dEe2TS8wnAxt4Cw" keyword="create"/>
+      <visibility xmi:id="_D3Zx2L5dEe2TS8wnAxt4Cw" label="+"/>
+      <cardinality xmi:id="_D3Zx2b5dEe2TS8wnAxt4Cw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_D3Zx2r5dEe2TS8wnAxt4Cw">
+        <modelElement href="JavaDesignPatterns.uml#_DytfEr5dEe2TS8wnAxt4Cw"/>
+        <type xmi:id="_D3Zx275dEe2TS8wnAxt4Cw" name="Dog">
+          <modelElement href="JavaDesignPatterns.uml#_DysQ8L5dEe2TS8wnAxt4Cw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_D3bnAL5dEe2TS8wnAxt4Cw" name="Birds" generalizations="_D3fRYL5dEe2TS8wnAxt4Cw">
+    <modelElement href="JavaDesignPatterns.uml#_DyqbwL5dEe2TS8wnAxt4Cw"/>
+    <visualProperties xmi:id="_D3bnAb5dEe2TS8wnAxt4Cw" position="536.0,696.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_D3bnAr5dEe2TS8wnAxt4Cw" label="+"/>
+    <operations xmi:id="_D3bnA75dEe2TS8wnAxt4Cw" name="Birds">
+      <modelElement href="JavaDesignPatterns.uml#_DyrC0L5dEe2TS8wnAxt4Cw"/>
+      <keywords xmi:id="_D3bnBL5dEe2TS8wnAxt4Cw" keyword="create"/>
+      <visibility xmi:id="_D3bnBb5dEe2TS8wnAxt4Cw" label="+"/>
+      <cardinality xmi:id="_D3bnBr5dEe2TS8wnAxt4Cw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_D3bnB75dEe2TS8wnAxt4Cw">
+        <modelElement href="JavaDesignPatterns.uml#_Dyrp4r5dEe2TS8wnAxt4Cw"/>
+        <type xmi:id="_D3bnCL5dEe2TS8wnAxt4Cw" name="Birds">
+          <modelElement href="JavaDesignPatterns.uml#_DyqbwL5dEe2TS8wnAxt4Cw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_D3l_EL5dEe2TS8wnAxt4Cw" name="Animal" associationsOut="_D3eDQL5dEe2TS8wnAxt4Cw" subclassedBy="_D3fRYL5dEe2TS8wnAxt4Cw _D3fRYb5dEe2TS8wnAxt4Cw">
+    <modelElement href="JavaDesignPatterns.uml#_Dyif8L5dEe2TS8wnAxt4Cw"/>
+    <visualProperties xmi:id="_D3l_Eb5dEe2TS8wnAxt4Cw" position="210.0,323.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_D3l_Er5dEe2TS8wnAxt4Cw" label="+"/>
+    <attributes xmi:id="_D3l_E75dEe2TS8wnAxt4Cw" name="name">
+      <modelElement href="JavaDesignPatterns.uml#_DzkasL5dEe2TS8wnAxt4Cw"/>
+      <visibility xmi:id="_D3l_FL5dEe2TS8wnAxt4Cw" label="+"/>
+      <cardinality xmi:id="_D3l_Fb5dEe2TS8wnAxt4Cw" label="1" max="1" min="1"/>
+      <type xmi:id="_D3l_Fr5dEe2TS8wnAxt4Cw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_D3l_F75dEe2TS8wnAxt4Cw" name="height">
+      <modelElement href="JavaDesignPatterns.uml#_Dzkasb5dEe2TS8wnAxt4Cw"/>
+      <visibility xmi:id="_D3l_GL5dEe2TS8wnAxt4Cw" label="+"/>
+      <cardinality xmi:id="_D3l_Gb5dEe2TS8wnAxt4Cw" label="1" max="1" min="1"/>
+      <type xmi:id="_D3l_Gr5dEe2TS8wnAxt4Cw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_D3l_G75dEe2TS8wnAxt4Cw" name="weight">
+      <modelElement href="JavaDesignPatterns.uml#_DzlBwL5dEe2TS8wnAxt4Cw"/>
+      <stereotypes xmi:id="_D3l_HL5dEe2TS8wnAxt4Cw" name="LegacyStyledElement">
+        <modelElement href="JavaDesignPatterns.uml#_DzlBwb5dEe2TS8wnAxt4Cw"/>
+      </stereotypes>
+      <visibility xmi:id="_D3l_Hb5dEe2TS8wnAxt4Cw" label="+"/>
+      <cardinality xmi:id="_D3l_Hr5dEe2TS8wnAxt4Cw" label="1" max="1" min="1"/>
+      <type xmi:id="_D3l_H75dEe2TS8wnAxt4Cw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_D3l_IL5dEe2TS8wnAxt4Cw" name="favFood">
+      <modelElement href="JavaDesignPatterns.uml#_DzmP4b5dEe2TS8wnAxt4Cw"/>
+      <visibility xmi:id="_D3l_Ib5dEe2TS8wnAxt4Cw" label="+"/>
+      <cardinality xmi:id="_D3l_Ir5dEe2TS8wnAxt4Cw" label="1" max="1" min="1"/>
+      <type xmi:id="_D3l_I75dEe2TS8wnAxt4Cw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_D3l_JL5dEe2TS8wnAxt4Cw" name="speed">
+      <modelElement href="JavaDesignPatterns.uml#_DzmP4r5dEe2TS8wnAxt4Cw"/>
+      <visibility xmi:id="_D3l_Jb5dEe2TS8wnAxt4Cw" label="+"/>
+      <cardinality xmi:id="_D3l_Jr5dEe2TS8wnAxt4Cw" label="1" max="1" min="1"/>
+      <type xmi:id="_D3l_J75dEe2TS8wnAxt4Cw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_D3l_KL5dEe2TS8wnAxt4Cw" name="sound">
+      <modelElement href="JavaDesignPatterns.uml#_Dzm28L5dEe2TS8wnAxt4Cw"/>
+      <visibility xmi:id="_D3l_Kb5dEe2TS8wnAxt4Cw" label="+"/>
+      <cardinality xmi:id="_D3l_Kr5dEe2TS8wnAxt4Cw" label="1" max="1" min="1"/>
+      <type xmi:id="_D3l_K75dEe2TS8wnAxt4Cw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_D3l_LL5dEe2TS8wnAxt4Cw" name="flyingType">
+      <modelElement href="JavaDesignPatterns.uml#_Dzm28b5dEe2TS8wnAxt4Cw"/>
+      <stereotypes xmi:id="_D3l_Lb5dEe2TS8wnAxt4Cw" name="LegacyStyledElement">
+        <modelElement href="JavaDesignPatterns.uml#_Dzm28r5dEe2TS8wnAxt4Cw"/>
+      </stereotypes>
+      <visibility xmi:id="_D3l_Lr5dEe2TS8wnAxt4Cw" label="+"/>
+      <cardinality xmi:id="_D3l_L75dEe2TS8wnAxt4Cw" label="1" max="1" min="1"/>
+      <type xmi:id="_D3l_ML5dEe2TS8wnAxt4Cw" name="Flys">
+        <modelElement href="JavaDesignPatterns.uml#_DyuGIL5dEe2TS8wnAxt4Cw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_D3l_Mb5dEe2TS8wnAxt4Cw" comments="_D3htoL5dEe2TS8wnAxt4Cw" targetConnectionVisual="_D3iUsL5dEe2TS8wnAxt4Cw" name="tryToFly">
+      <modelElement href="JavaDesignPatterns.uml#_DymxYL5dEe2TS8wnAxt4Cw"/>
+      <visibility xmi:id="_D3l_Mr5dEe2TS8wnAxt4Cw" label="+"/>
+      <cardinality xmi:id="_D3l_M75dEe2TS8wnAxt4Cw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_D3l_NL5dEe2TS8wnAxt4Cw">
+        <modelElement href="JavaDesignPatterns.uml#_DynYcL5dEe2TS8wnAxt4Cw"/>
+        <type xmi:id="_D3l_Nb5dEe2TS8wnAxt4Cw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_D3l_Nr5dEe2TS8wnAxt4Cw" name="setFlyingAbility">
+      <modelElement href="JavaDesignPatterns.uml#_DzeUEL5dEe2TS8wnAxt4Cw"/>
+      <visibility xmi:id="_D3l_N75dEe2TS8wnAxt4Cw" label="+"/>
+      <cardinality xmi:id="_D3l_OL5dEe2TS8wnAxt4Cw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_D3l_Ob5dEe2TS8wnAxt4Cw" name="newFlyType">
+        <modelElement href="JavaDesignPatterns.uml#_DzeUEb5dEe2TS8wnAxt4Cw"/>
+        <cardinality xmi:id="_D3l_Or5dEe2TS8wnAxt4Cw" label="1" max="1" min="1"/>
+        <type xmi:id="_D3l_O75dEe2TS8wnAxt4Cw" name="Flys">
+          <modelElement href="JavaDesignPatterns.uml#_DyuGIL5dEe2TS8wnAxt4Cw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_D30okL5dEe2TS8wnAxt4Cw" name="StrategyMain">
+    <modelElement href="JavaDesignPatterns.uml#_Dyy-oL5dEe2TS8wnAxt4Cw"/>
+    <visualProperties xmi:id="_D30okb5dEe2TS8wnAxt4Cw" position="508.0,824.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_D30okr5dEe2TS8wnAxt4Cw" label="+"/>
+    <operations xmi:id="_D30ok75dEe2TS8wnAxt4Cw" name="main" staticOperation="true">
+      <modelElement href="JavaDesignPatterns.uml#_DyzlsL5dEe2TS8wnAxt4Cw"/>
+      <visibility xmi:id="_D30olL5dEe2TS8wnAxt4Cw" label="+"/>
+      <cardinality xmi:id="_D30olb5dEe2TS8wnAxt4Cw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_D30olr5dEe2TS8wnAxt4Cw" name="args">
+        <modelElement href="JavaDesignPatterns.uml#_Dyzlsb5dEe2TS8wnAxt4Cw"/>
+        <cardinality xmi:id="_D30ol75dEe2TS8wnAxt4Cw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_D30omL5dEe2TS8wnAxt4Cw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_D2jdQL5dEe2TS8wnAxt4Cw" name="Flys" associationsIn="_D3eDQL5dEe2TS8wnAxt4Cw" subclassedBy="_D2dWoL5dEe2TS8wnAxt4Cw _D2d9sL5dEe2TS8wnAxt4Cw">
+    <modelElement href="JavaDesignPatterns.uml#_DyuGIL5dEe2TS8wnAxt4Cw"/>
+    <visualProperties xmi:id="_D2jdQb5dEe2TS8wnAxt4Cw" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_D2jdQr5dEe2TS8wnAxt4Cw" label="+"/>
+    <operations xmi:id="_D2jdQ75dEe2TS8wnAxt4Cw" name="fly">
+      <modelElement href="JavaDesignPatterns.uml#_DyxwgL5dEe2TS8wnAxt4Cw"/>
+      <visibility xmi:id="_D2jdRL5dEe2TS8wnAxt4Cw" label="+"/>
+      <cardinality xmi:id="_D2jdRb5dEe2TS8wnAxt4Cw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_D2jdRr5dEe2TS8wnAxt4Cw">
+        <modelElement href="JavaDesignPatterns.uml#_Dyxwgb5dEe2TS8wnAxt4Cw"/>
+        <type xmi:id="_D2jdR75dEe2TS8wnAxt4Cw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <memberTypes xmi:id="_D2jdSL5dEe2TS8wnAxt4Cw" name="ItFlys">
+      <modelElement href="JavaDesignPatterns.uml#_DyutML5dEe2TS8wnAxt4Cw"/>
+      <keywords xmi:id="_D2jdSb5dEe2TS8wnAxt4Cw" keyword="sameFile"/>
+      <visibility xmi:id="_D2jdSr5dEe2TS8wnAxt4Cw" label="~"/>
+      <operations xmi:id="_D2jdS75dEe2TS8wnAxt4Cw" name="fly">
+        <modelElement href="JavaDesignPatterns.uml#_Dyv7UL5dEe2TS8wnAxt4Cw"/>
+        <visibility xmi:id="_D2kEUL5dEe2TS8wnAxt4Cw" label="+"/>
+        <cardinality xmi:id="_D2kEUb5dEe2TS8wnAxt4Cw" label="1" max="1" min="1"/>
+        <outParameters xmi:id="_D2kEUr5dEe2TS8wnAxt4Cw">
+          <modelElement href="JavaDesignPatterns.uml#_Dyv7Ub5dEe2TS8wnAxt4Cw"/>
+          <type xmi:id="_D2kEU75dEe2TS8wnAxt4Cw" name="String">
+            <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </type>
+        </outParameters>
+      </operations>
+    </memberTypes>
+    <memberTypes xmi:id="_D2kEVL5dEe2TS8wnAxt4Cw" name="CantFly">
+      <modelElement href="JavaDesignPatterns.uml#_DywiYL5dEe2TS8wnAxt4Cw"/>
+      <keywords xmi:id="_D2kEVb5dEe2TS8wnAxt4Cw" keyword="sameFile"/>
+      <visibility xmi:id="_D2kEVr5dEe2TS8wnAxt4Cw" label="~"/>
+      <operations xmi:id="_D2kEV75dEe2TS8wnAxt4Cw" name="fly">
+        <modelElement href="JavaDesignPatterns.uml#_DyxJcL5dEe2TS8wnAxt4Cw"/>
+        <visibility xmi:id="_D2kEWL5dEe2TS8wnAxt4Cw" label="+"/>
+        <cardinality xmi:id="_D2kEWb5dEe2TS8wnAxt4Cw" label="1" max="1" min="1"/>
+        <outParameters xmi:id="_D2kEWr5dEe2TS8wnAxt4Cw">
+          <modelElement href="JavaDesignPatterns.uml#_DyxJcb5dEe2TS8wnAxt4Cw"/>
+          <type xmi:id="_D2kEW75dEe2TS8wnAxt4Cw" name="String">
+            <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </type>
+        </outParameters>
+      </operations>
+    </memberTypes>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

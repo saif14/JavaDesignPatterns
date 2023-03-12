@@ -1,0 +1,12 @@
+1. Never add any to super class if it does not pertain any subclasses.
+2. Overriding in child class would create a lot redundant overriding in every child class. 
+3. Avoid Interfaces that just Force Action
+4. When we want to define a class that will have one behavior that is similar to other behaviors
+	in a list
+	--- When we need to use one of the several behaviors dynamically.
+	
+5. Often reduces long lists of conditionals
+4. Avoids duplicate code
+5. Keeps class changes from forcing other class changes
+6. Can hide complicated / secret code from the user.
+7. But it increases number of objects/classes
